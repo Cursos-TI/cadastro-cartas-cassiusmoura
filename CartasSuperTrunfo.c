@@ -93,5 +93,17 @@ int main() {
   printf("PIB: %.2f bilhões de reais\n", pib2);
   printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
 
+  if(populacao1 > populacao2){
+        printf("CARTA 1 VENCEU \n");
+    } else {
+        printf("CARTA 2 VENCEU \n");
+    }
+
+    if(area1 > area2){
+        printf("CARTA 1 VENCEU \n");
+    } else {
+        printf("CARTA 2 VENCEU \n");
+    }
+
 return 0;
 } 
